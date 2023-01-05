@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: white;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+}
+
+.nav-title{
+    
+    margin: 50px 200px;
+    font-size: 50px;
+
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+    width: 189px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    width: 150px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    border-radius: 5px;
+
+}
+.banner{
+    margin: 0px 200px;
+    align-items: center;
+    display: flex;
+}
+.banner-sub-title{
+    width: 177px;
+    height: 61px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+   
+
+}
+.banner-title{
+    width: 498px;
+    height: 116px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+   
+}
+.banner-description{
+    width: 585px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 10px;
+
+}
+.imgh{
+    margin-left: 510px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+
+}
+.section-title{
+    
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+
+}
